@@ -1,0 +1,47 @@
+{
+  "name": "expo-navigation-example",
+  "version": "0.0.1",
+  "description": "expo-navigation-example",
+  "author": "Stefan Natter <stefan@natter.at>",
+  "license": "Apache-2.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "android": "expo start --android",
+    "lint:fix": "eslint ./src --fix",
+    "ios": "expo start --ios",
+    "precommit": "lint-staged",
+    "start": "expo start",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": ["npm run lint:fix", "git add"]
+  },
+  "dependencies": {
+    "expo": "30.0.1",
+    "lodash.get": "4.4.2",
+    "react": "16.3.1",
+    "react-lifecycles-compat": "3.0.4",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-app-intro-slider": "1.0.1",
+    "react-native-dismiss-keyboard": "1.0.0",
+    "react-native-paper": "2.0.1",
+    "react-navigation": "2.14.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-ns": "0.2.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jest": "21.15.3",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "7.8.2",
+    "expo-cli": "2.1.3",
+    "husky": "0.14.3",
+    "lint-staged": "7.2.2",
+    "prettier": "1.14.2"
+  }
+}

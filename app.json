@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "expo-navigation-example",
+    "description": "expo-navigation-example",
+    "slug": "expo-navigation-example",
+    "privacy": "unlisted",
+    "sdkVersion": "30.0.0",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/app-splash.png",
+      "resizeMode": "cover"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4", "otf", "xml"]
+    },
+    "ios": {
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.example.exponavigationexample",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.example.exponavigationexample",
+      "versionCode": 1
+    },
+    "assetBundlePatterns": ["assets/*"]
+  }
+}
